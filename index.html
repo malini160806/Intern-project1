@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DuckDuckGo</title>
-     <link rel="icon" href="Images/duckgo.png">
-     <link rel="stylesheet" href="style.css">
+  <title>DuckDuckGo — Privacy, simplified.</title>
+  <link rel="icon" href="Images/duckgo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 
 <body>
-  <div class="topbar">
+   <div class="topbar">
     <div class="left">
       <img src="Images/duck2.svg">
       <div>DuckDuckGo</div>
     </div>
 
+    <div class="search-container header-search">
+      <div class="search-input-wrap">
+        <input type="text" placeholder="Search privately">
+      </div>
+      <div class="search-chips">
+        <button class="chip active">Search</button>
+        <button class="chip">Ask AI</button>
+      </div>
+    </div>
+
     <div class="right">
-      <div class="duckai">💬 Duck.ai</div>
-      <div class="menu">☰</div>
+      <button class="ghost-btn duckai">Duck.ai</button>
+      <div class="menu"><span class="hamburger"></span>Menu</div>
     </div>
    </div>
 
 
-  <div class="search-container">
-    <input type="text" placeholder="Search privately">
-    <button class="btn">🔍 Search</button>
-    <button class="btn">✨ Ask AI</button>
-  </div>
 
   <div class="hero">
    <h1> Switch to DuckDuckGo.
@@ -42,21 +50,21 @@
     <div class="badge">BEST PRIVACY</div>
     <img src="Images/duck2.svg" alt="serach icon">
     <p>Get our free browser for even more privacy</p>
-    <button class="card button blue">Download browser -></button>
+    <button class="card button blue">Download browser</button>
   </div>
  </div>
-   <p class="footer-text">Trusted by tens of millions worlwide!</p>
+   <p class="footer-text">Trusted by tens of millions worldwide!</p>
 <div class="learn-more">
   <p>Learn more</p>
-  <div class="arrow">↓</div>
+  <div class="arrow">⌄</div>
 </div>
 <div class="privacy-section">
   <img src="Images/shield.png" alt="shield" class="shield">
-  <h1>The browser that<br><span> actively protects</span>Your<br> personal information. </h1>
+  <h1>The browser that<br><span class="peach">actively protects</span> your<br>personal information.</h1>
   <button class="download-btn">
-⬇ Download DuckDuckGo for Windows
+    <span class="dl-icon">↓</span> Download DuckDuckGo for Windows
   </button>
-  </div>
+</div>
 
   <div class="apps">
 <h2>DESKTOP & MOBILE BROWSER</h2>
@@ -255,95 +263,97 @@
 
   </div>
 </div>
- <div class="compare-footer">
-
-  <!-- Top row -->
-  <div class="top-row">
+<div class="compare-footer">
+  <div class="footer-main">
     <p class="note">
       Browser comparisons were made with default settings.<br>
       Information is correct as of December 2025
     </p>
 
     <div class="legend">
-      <span class="included">✔ Included</span>
-      <span class="limited">➖ Limited</span>
-      <span class="paid">💲 Paid</span>
-      <span class="none">✖ None</span>
+      <div class="legend-item"><span class="dot green">✓</span> Included</div>
+      <div class="legend-item"><span class="dot yellow">−</span> Limited</div>
+      <div class="legend-item"><span class="dot grey">$</span> Paid</div>
+      <div class="legend-item"><span class="dot red">×</span> None</div>
     </div>
   </div>
-</div>
-<div class="buttons">
-  <button class="compare-download-btn">⬇ Download DuckDuckGo for Windows</button>
-  <button class="compare-btn">🔗 Compare More Protections</button>
-</div>
-<div class="final-hero">
 
+  <div class="compare-actions">
+    <button class="download-btn-blue">
+      <span class="btn-icon">↓</span> Download DuckDuckGo for Windows
+    </button>
+    <button class="compare-more-btn">
+      <span class="btn-icon">↗</span> Compare More Protections
+    </button>
+  </div>
+</div>
+
+
+<div class="final-hero">
   <h1>
     <span class="green">Protection.</span>
     <span class="blue">Privacy.</span>
     <span class="purple">Peace of mind.</span>
   </h1>
+  <h2>Get the browser built for data protection, not data collection.</h2>
 
-  <h2>
-    Get the browser built for data<br>
-    protection, not data collection.
-  </h2>
+  <p class="available-text">THE DUCKDUCKGO BROWSER IS AVAILABLE ON</p>
 
-  <p class="sub">
-    THE DUCKDUCKGO BROWSER IS AVAILABLE ON
-  </p>
-
-  <div class="platforms">
-    <div class="plat">🪟 Windows</div>
-    <div class="plat">💻 Mac</div>
-    <div class="plat">🤖 Android</div>
-    <div class="plat">🍎 iOS</div>
+  <div class="os-pills">
+    <div class="os-pill">
+      <img src="Images/windows.png" alt="">
+      Windows
+    </div>
+    <div class="os-pill">
+      <img src="Images/mac.png" alt="">
+      Mac
+    </div>
+    <div class="os-pill">
+      <img src="Images/robot.png" alt="">
+      Android
+    </div>
+    <div class="os-pill">
+      <img src="Images/apple.png" alt="">
+      iOS
+    </div>
   </div>
 </div>
 <div class="control-section">
-
-  <img src="Images/shield.png" class="top-icon" alt="shield">
-
-  <h1>
-    Take back control of your<br>
-    personal information.
-  </h1>
-
-  <p>
-    Hidden trackers lurk on 85% of popular websites. We actively block
-    them by default, helping you evade hackers, scammers, and data-
-    hungry companies.
-  </p>
-
-]  <div class="image-wrap">
-    <img src="Images/block.png" alt="devices">
+  <img src="Images/shield.png" class="control-icon-small" alt="shield">
+  <h1>Take back control of your<br>personal information.</h1>
+  <p class="control-desc">Hidden trackers lurk on 85% of popular websites. We actively block them by default, helping you evade hackers, scammers, and data-hungry companies.</p>
+  <div class="blocker-preview">
+    <img src="Images/block.png" alt="Blocker Preview">
   </div>
+</div>
+
+
 
 </div>
 <div class="features-row">
 
-  <div class="feature-box">
-    <div class="left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/globe.svg" alt="">
     </div>
     <p>Goodbye Incognito mode, hello real privacy in every tab</p>
-    <div class="plus">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
-  <div class="feature-box">
-    <div class="left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/smile.svg" alt="">
     </div>
     <p>Block 3rd-party trackers from Google, Facebook, and others</p>
-    <div class="plus">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
-  <div class="feature-box">
-    <div class="left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/fire.svg" alt="">
     </div>
     <p>Delete all tabs, history, and browsing data in one click</p>
-    <div class="plus">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
 </div>
@@ -369,91 +379,68 @@
   </div>
 
 </div>
-<div class="ads-section">
-  <div class="ads-container">
-    <img src="Images/girl.png" alt="preview">
-  </div>
-</div>
 <div class="features-row">
 
-  <div class="feature-box">
-    <div class="feature-left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/mask.svg" alt="">
-      <p>Stop ads following you everywhere</p>
     </div>
-    <div class="plus">+</div>
+    <p>Stop ads following you everywhere</p>
+    <div class="pill-plus">+</div>
   </div>
 
-  <div class="feature-box">
-    <div class="feature-left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/butter.svg" alt="">
-      <p>Block annoying cookie pop-ups</p>
     </div>
-    <div class="plus">+</div>
+    <p>Block annoying cookie pop-ups</p>
+    <div class="pill-plus">+</div>
   </div>
 
-  <div class="feature-box">
-    <div class="feature-left">
+  <div class="feature-pill">
+    <div class="pill-icon">
       <img src="Images/heart.svg" alt="">
-      <p>Watch YouTube videos without targeted ads</p>
     </div>
-    <div class="plus">+</div>
+    <p>Watch YouTube videos without targeted ads</p>
+    <div class="pill-plus">+</div>
   </div>
 
 </div>
+
 <div class="data-section">
-
-  <div class="data-content">
-    <img src="Images/key.svg" alt="lock" class="lock-icon">
-
-    <h1>
-      Data protection,<br>
-      not data collection.
-    </h1>
-
-    <p>
-      We believe the best way to protect your data is to stop it from being
-      collected at all. We never track your searches, and our browsing
-      protections help stop other companies from collecting your data.
-    </p>
+  <div class="data-card">
+    <img src="Images/key.svg" alt="lock" class="data-icon">
+    <h1>Data protection,<br>not data collection.</h1>
+    <p>We believe the best way to protect your data is to stop it from being collected at all. We never track your searches, and our browsing protections help stop other companies from collecting your data.</p>
   </div>
-
 </div>
 <div class="protect-image">
   <img src="Images/protected.png" alt="Protected UI">
 </div>
-<div class="feature-row">
+<div class="features-row">
 
-  <div class="feature-card">
-    <div class="left">
-      <img src="Images/search.svg">
+  <div class="feature-pill">
+    <div class="pill-icon">
+      <img src="Images/search.svg" alt="">
     </div>
-
     <p>Search without being tracked</p>
-
-    <div class="circle">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
-
-  <div class="feature-card">
-    <div class="left">
-      <img src="Images/key2.svg">
+  <div class="feature-pill">
+    <div class="pill-icon">
+      <img src="Images/key2.svg" alt="">
     </div>
-
     <p>A simple, secure password manager</p>
-
-    <div class="circle">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
-
-  <div class="feature-card active">
-    <div class="left">
-      <img src="Images/msg.svg">
+  <div class="feature-pill">
+    <div class="pill-icon">
+      <img src="Images/msg.svg" alt="">
     </div>
-
     <p>Chat privately with popular AI chatbots (optional)</p>
-
-    <div class="circle">+</div>
+    <div class="pill-plus">+</div>
   </div>
 
 </div>
@@ -462,28 +449,40 @@
 
   <div class="reviews-container">
     
-    <div class="card">
-      <h3 class="brand">WIRED</h3>
+    <div class="review-card">
+      <div class="brand wired">WIRED</div>
       <p>“ you're getting maximum protection with minimal effort. ”</p>
-      <span class="author">David Nield</span>
+      <div class="author">
+        <div class="avatar">DN</div>
+        <span>David Nield</span>
+      </div>
     </div>
 
-    <div class="card">
-      <h3 class="brand">engadget</h3>
+    <div class="review-card">
+      <div class="brand engadget">engadget</div>
       <p>“ easy and quick to import passwords and bookmarks from other browsers like Chrome. ”</p>
-      <span class="author">Mariella Moon</span>
+      <div class="author">
+        <div class="avatar">MM</div>
+        <span>Mariella Moon</span>
+      </div>
     </div>
 
-    <div class="card">
-      <h3 class="brand red">CNET</h3>
+    <div class="review-card">
+      <div class="brand cnet">CNET</div>
       <p>“ frees up bandwidth and lets websites load faster. ”</p>
-      <span class="author">Zachary McAuliffe</span>
+      <div class="author">
+        <div class="avatar">ZM</div>
+        <span>Zachary McAuliffe</span>
+      </div>
     </div>
 
-    <div class="card">
-      <h3 class="brand">techradar</h3>
+    <div class="review-card">
+      <div class="brand techradar">techradar</div>
       <p>“ DuckDuckGo is a must-try ”</p>
-      <span class="author">Desire Athow</span>
+      <div class="author">
+        <div class="avatar">DA</div>
+        <span>Desire Athow</span>
+      </div>
     </div>
 
   </div>
@@ -522,7 +521,7 @@
     <p class="top-text">Get our free browser today!</p>
 
     <button class="download-btn">
-      <span>⬇</span> Download DuckDuckGo Browser
+      Download DuckDuckGo Browser
     </button>
 
     <div class="store-row">
@@ -544,5 +543,126 @@
   </div>
 
 </section>
+
+<section class="faq-section">
+  <div class="faq-container">
+    <div class="faq-left">
+      <h2>Still have<br>questions?</h2>
+    </div>
+    <div class="faq-right">
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What is DuckDuckGo?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How does DuckDuckGo protect my privacy?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Does DuckDuckGo block all trackers on websites I visit?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How many people use DuckDuckGo?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How does DuckDuckGo make money?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Why use DuckDuckGo instead of Google?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Is Incognito Mode private?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How do DuckDuckGo Search results compare to Google's?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Is DuckDuckGo owned by Google or any other entity?</span>
+          <span class="faq-arrow">⌄</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="main-footer">
+  <div class="footer-grid">
+    <div class="footer-column">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">Privacy Browser</a></li>
+        <li><a href="#">Search Engine</a></li>
+        <li><a href="#">Duck.ai</a></li>
+        <li><a href="#">Privacy Pro</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Community</h4>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Reddit</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Careers</h4>
+      <ul>
+        <li><a href="#">Join the Team</a></li>
+        <li><a href="#">Open Roles</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-logo">
+      <img src="Images/duckgo.png" alt="DuckDuckGo">
+      <span>DuckDuckGo</span>
+    </div>
+    <div class="footer-search">
+      <input type="text" placeholder="Search privately">
+      <button>Search</button>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="Images/chrome.svg" alt=""></a>
+      <a href="#"><img src="Images/firefox.svg" alt=""></a>
+      <a href="#"><img src="Images/edge.svg" alt=""></a>
+    </div>
+  </div>
+</footer>
+
+<button class="customize-btn">Customize</button>
 </body>
 </html>
