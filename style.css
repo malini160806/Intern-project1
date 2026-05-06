@@ -132,7 +132,6 @@ body {
   width: 90%;
   max-width: 600px;
   margin: 20px auto 40px;
-  /* Further reduced from 40px to 20px */
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 40px;
@@ -256,7 +255,8 @@ body {
 
 .card img {
   width: 72px;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  display:block;
 }
 
 .card p {
@@ -282,6 +282,8 @@ body {
 .card button.blue {
   background-color: var(--accent-blue);
   color: white;
+  width: 100%;
+  
 }
 
 .card button.blue:hover {
@@ -356,8 +358,7 @@ body {
 }
 
 .shield {
-  width: 480px;
-  /* Increased to match user screenshot */
+  width: 250px;
   max-width: 90%;
   margin-bottom: 80px;
 }
